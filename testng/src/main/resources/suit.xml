@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--可以直接运行-->
+<suite name="test">
+    <test name="demo">
+        <classes>
+<!--            <class name="com.sohutest.testng.AnnoDemo"/>-->
+<!--            以上为需要运行的类-->
+
+            <class name="com.sohutest.testng.group.DemoTest"/>
+<!--            按suit执行-->
+        </classes>
+    </test>
+</suite>
